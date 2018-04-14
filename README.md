@@ -446,4 +446,4 @@ In this tutorial, we've seen how to create a Server-Side Rendered Preact app and
 
 You should now have an idea on how to render a Preact app on the server. The basic gist is to initially render the app on the server FIRST and then render the components on the browser.
 
-The code for this tutorial can be viewed on Github for your perusal.
+The code for this tutorial can be viewed on [Github](https://github.com/yomete/preact-ssr) for your perusal.
