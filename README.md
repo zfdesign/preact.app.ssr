@@ -451,7 +451,7 @@ Now the page should display nicely like this.
 
 # Conclusion
 
-In this tutorial, we've seen how to create a Server-Side Rendered Preact app and explored the advantages of building server-side rendered apps. We also saw how to use Unistore for basic state management and how to hook up state from the server to the frontend using window.__STATE__.
+In this tutorial, we've seen how to create a Server-Side Rendered Preact app and explored the advantages of building server-side rendered apps. We also saw how to use Unistore for basic state management and how to hook up state from the server to the frontend using `window.__STATE__`.
 
 You should now have an idea on how to render a Preact app on the server. The basic gist is to initially render the app on the server FIRST and then render the components on the browser.
 
