@@ -396,6 +396,11 @@ Once the installation is done, head over to the `webpack.config.js` file and add
 
 We can now create a `index.css` file inside the `src` folder and edit with the following code:
 
+```bash
+# create 'index.css' 
+touch ./src/index.css
+```
+
 ```css
 body {
   background-image: linear-gradient(to right top, #2b0537, #820643, #c4442b, #d69600, #a8eb12);
@@ -410,7 +415,7 @@ a {
   color: white;
   text-decoration: underline;
 }
-p {
+h2, p {
   color: white
 }
 .count p {
