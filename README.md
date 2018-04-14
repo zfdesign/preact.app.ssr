@@ -78,7 +78,7 @@ Next, let's create a Webpack config file, create a file named `webpack.config.js
 
 ```bash
 # Create files 
-touch webpack.config.js .babel.rc
+touch webpack.config.js .babelrc
 ```
 
 ```JavaScript
