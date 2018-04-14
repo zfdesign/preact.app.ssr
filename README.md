@@ -2,7 +2,7 @@ Build a SSR App With Preact, Unistore and Preact Router
 =======================================================
 [https://scotch.io/tutorials/build-a-ssr-app-with-preact-unistore-and-preact-router]
 
-_Yomi EluwandeApril 03_
+_Yomi Eluwande April 03_
 
 In this tutorial, we are going to explore how to build a server-side rendered app with [Preact](https://preactjs.com/). [Preact Router](https://github.com/developit/preact-router) will be used for routing, [Unistore](https://github.com/developit/unistore) for state management and [Webpack](https://webpack.js.org/) for JS bundling. Some existing knowledge of Preact, Unistore, and Webpack might be needed.
 
@@ -128,7 +128,7 @@ Since we're using Babel, we'll need to create a `.babelrc` file in the root of t
 Next up, we'll begin to create files for the Preact side of things. Create a `src` folder and create the following files in it.
 
 ```bash
-# mkdir ./src/store && touch ./src/store/store.js ./src/About.js ./src/App.js ./src/index.js ./src/router.js
+# mkdir ./src ./src/store && touch ./src/store/store.js ./src/About.js ./src/App.js ./src/index.js ./src/router.js
 
 store/store.js
 About.js
