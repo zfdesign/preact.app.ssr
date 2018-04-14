@@ -1,8 +1,9 @@
+// index.js
 import { h, render } from 'preact'
 import { Provider } from 'unistore/preact'
-import { Router } from './router'
+import Router from './router'
 
-import { createStore } from './store/store'
+import createStore from './store/store'
 
 const store = createStore(window.__STATE__)
 
