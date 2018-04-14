@@ -251,6 +251,10 @@ That's a wrap on the client side of things. We'll now move to the server-side of
 
 To start with, a `server.js` file will be created, this will house the Node app that will be used for the server-side rendering.
 
+```bash
+touch server.js
+```
+
 ```JavaScript
 // server.js
 const express = require("express");
@@ -373,7 +377,7 @@ With that done, we can finally run the app and see what it looks like, before yo
   },
 ```
 
-These are scripts that allows us to get the app up and running, run the command `npm run dev` in your terminal and go to `http://localhost:4000`. The app should be up and running and you should get a display similar to the one below.
+These are scripts that allows us to get the app up and running, run the command `npm run dev` in your terminal and go to [http://localhost:4000](http://localhost:4000). The app should be up and running and you should get a display similar to the one below.
 
 # Adding CSS Styling
 
