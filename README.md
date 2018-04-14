@@ -121,7 +121,7 @@ Since we're using Babel, we'll need to create a `.babelrc` file in the root of t
         }]
     ]
 }
-``` 
+```
 
 # Build the Preact App
 
@@ -180,8 +180,8 @@ There are mainly just two routes in the application, the `App.js` component serv
 Next is the `About.js` file and you can proceed to edit with the following:
 
 ```JavaScript
-import { h } from "preact";
-import { Link } from "preact-router/match";
+import { h } from 'preact';
+import { Link } from 'preact-router/match';
 
 export const About = () => (
     <div>
@@ -216,7 +216,7 @@ export const App = connect('count', actions)(
 
 So what's happening here? The `connect` function is imported, as well as the `actions` function. In the `App` component, the state value, `count` is exposed as well as the `increment` and `decrement` actions. The `increment` and `decrement` actions are both hooked up to different buttons with the `onClick` event handler.
 
-The index.js file is the entry point for Webpack if you remember too well, it's going to serve as the parent component for all other components in the Preact app. Open up the file and edit with the code below.
+The `index.js` file is the entry point for Webpack if you remember too well, it's going to serve as the parent component for all other components in the Preact app. Open up the file and edit with the code below.
 
 ```JavaScript
 // index.js
