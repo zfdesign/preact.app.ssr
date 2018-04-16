@@ -4,6 +4,7 @@ import { Provider } from 'unistore/preact'
 import Router from './router'
 
 import createStore from './store/store'
+import './index.css'
 
 const store = createStore(window.__STATE__)
 

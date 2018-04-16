@@ -396,6 +396,11 @@ Once the installation is done, head over to the `webpack.config.js` file and add
 
 We can now create a `index.css` file inside the `src` folder and edit with the following code:
 
+```bash
+# create 'index.css' 
+touch ./src/index.css
+```
+
 ```css
 body {
   background-image: linear-gradient(to right top, #2b0537, #820643, #c4442b, #d69600, #a8eb12);
@@ -410,7 +415,7 @@ a {
   color: white;
   text-decoration: underline;
 }
-p {
+h2, p {
   color: white
 }
 .count p {
@@ -446,7 +451,7 @@ Now the page should display nicely like this.
 
 # Conclusion
 
-In this tutorial, we've seen how to create a Server-Side Rendered Preact app and explored the advantages of building server-side rendered apps. We also saw how to use Unistore for basic state management and how to hook up state from the server to the frontend using window.__STATE__.
+In this tutorial, we've seen how to create a Server-Side Rendered Preact app and explored the advantages of building server-side rendered apps. We also saw how to use Unistore for basic state management and how to hook up state from the server to the frontend using `window.__STATE__`.
 
 You should now have an idea on how to render a Preact app on the server. The basic gist is to initially render the app on the server FIRST and then render the components on the browser.
 
