@@ -121,7 +121,7 @@ Since we're using Babel, we'll need to create a `.babelrc` file in the root of t
         }]
     ]
 }
-``` 
+```
 
 # Build the Preact App
 
@@ -180,8 +180,8 @@ There are mainly just two routes in the application, the `App.js` component serv
 Next is the `About.js` file and you can proceed to edit with the following:
 
 ```JavaScript
-import { h } from "preact";
-import { Link } from "preact-router/match";
+import { h } from 'preact';
+import { Link } from 'preact-router/match';
 
 export const About = () => (
     <div>
@@ -216,7 +216,7 @@ export const App = connect('count', actions)(
 
 So what's happening here? The `connect` function is imported, as well as the `actions` function. In the `App` component, the state value, `count` is exposed as well as the `increment` and `decrement` actions. The `increment` and `decrement` actions are both hooked up to different buttons with the `onClick` event handler.
 
-The index.js file is the entry point for Webpack if you remember too well, it's going to serve as the parent component for all other components in the Preact app. Open up the file and edit with the code below.
+The `index.js` file is the entry point for Webpack if you remember too well, it's going to serve as the parent component for all other components in the Preact app. Open up the file and edit with the code below.
 
 ```JavaScript
 // index.js
@@ -250,6 +250,10 @@ That's a wrap on the client side of things. We'll now move to the server-side of
 # Build the Node Server
 
 To start with, a `server.js` file will be created, this will house the Node app that will be used for the server-side rendering.
+
+```bash
+touch server.js
+```
 
 ```JavaScript
 // server.js
@@ -373,7 +377,7 @@ With that done, we can finally run the app and see what it looks like, before yo
   },
 ```
 
-These are scripts that allows us to get the app up and running, run the command `npm run dev` in your terminal and go to `http://localhost:4000`. The app should be up and running and you should get a display similar to the one below.
+These are scripts that allows us to get the app up and running, run the command `npm run dev` in your terminal and go to [http://localhost:4000](http://localhost:4000). The app should be up and running and you should get a display similar to the one below.
 
 # Adding CSS Styling
 
